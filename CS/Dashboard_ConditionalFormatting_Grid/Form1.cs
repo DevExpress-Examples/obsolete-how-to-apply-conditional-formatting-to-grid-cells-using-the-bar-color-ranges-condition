@@ -1,9 +1,12 @@
-﻿using DevExpress.DashboardCommon;
+﻿using System;
+using DevExpress.DashboardCommon;
+using DevExpress.DashboardWin;
 
 namespace Grid_IconRangeCondition {
     public partial class Form1 : DevExpress.XtraEditors.XtraForm {
         public Form1() {
             InitializeComponent();
+            dashboardViewer1.CustomizeDashboardTitle += DashboardViewer1_CustomizeDashboardTitle;
             Dashboard dashboard = new Dashboard(); dashboard.LoadFromXml(@"..\..\Data\Dashboard.xml");
             dashboardViewer1.Dashboard = dashboard;
             GridDashboardItem grid = (GridDashboardItem)dashboard.Items["gridDashboardItem1"];
@@ -18,7 +21,17 @@ namespace Grid_IconRangeCondition {
             grid.FormatRules.AddRange(rangeRule);
         }
 
-        private void button1_Click(object sender, System.EventArgs e) {
+        private void DashboardViewer1_CustomizeDashboardTitle(object sender, CustomizeDashboardTitleEventArgs e)
+        {
+            DashboardToolbarItem itemUpdate = new DashboardToolbarItem(
+                (args) => UpdateFormatting())
+            {
+                Caption = "Update Formatting",
+            };
+            e.Items.Add(itemUpdate);
+        }
+
+        private void UpdateFormatting() {
             GridDashboardItem grid = 
                 (GridDashboardItem)dashboardViewer1.Dashboard.Items["gridDashboardItem1"];
             GridItemFormatRule rangeRule = grid.FormatRules[0];
