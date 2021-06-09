@@ -15,3 +15,17 @@ This example shows how to display colored bars within Grid cells. Click the **U
 
 * [Conditional Formatting](https://docs.devexpress.com/Dashboard/116914/common-features/appearance-customization/conditional-formatting)
 * [Grid - Conditional Formatting](https://docs.devexpress.com/Dashboard/401933/winforms-dashboard/winforms-designer/create-dashboards-in-the-winforms-designer/dashboard-item-settings/grid/conditional-formatting)
+
+## Documentation
+
+[Conditional Formatting](https://docs.devexpress.com/Dashboard/402204])
+
+## More Examples
+
+* [How to: Apply Conditional Formatting to Grid Cells using the Value Format Condition](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-value-format-condition-t259897)
+* [How to: Apply Conditional Formatting to Grid Cells using the Top-Bottom and Average Conditions](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-top-bottom-average-conditions-t259930)
+* [How to: Apply Conditional Formatting to Grid Cells using the Icon Ranges Format Condition](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-icon-ranges-format-condition-t259991)
+* [How to: Apply Conditional Formatting to Grid Cells using the Gradient Ranges Format Condition](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-gradient-ranges-condition-t260005)
+* [How to: Apply Conditional Formatting to Grid Cells using the Date Occurring Format Condition](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-date-occurring-format-condition-t267749)
+* [How to: Apply Conditional Formatting to Grid Cells using the Bar Format Condition](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-bar-format-condition-t304315)
+* [How to: Apply Conditional Formatting to Grid Cells using the Bar Gradient Ranges Format Condition](https://github.com/DevExpress-Examples/how-to-apply-conditional-formatting-to-grid-cells-using-the-bar-gradient-ranges-condition-t304367)
